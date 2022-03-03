@@ -133,3 +133,27 @@ const bmiMark = wtMark / htMark ** 2
 const bmiJohn = wtJohn / htJohn ** 2
 
 console.log(bmiMark, bmiJohn, bmiMark > bmiJohn ? true : false)
+
+const FirstName = 'Aman'
+const Job = 'developer'
+const BirthYear = 1994
+
+// String Literals - pain in arse
+const aman =
+  "I'm " +
+  FirstName +
+  ', a ' +
+  Job +
+  ' ' +
+  'and is ' +
+  (2022 - BirthYear) +
+  " year's old."
+
+console.log(aman)
+
+// Template Literals - ES6 feature
+const amanNew = `I'm ${FirstName}, a ${Job} and is ${
+  2022 - BirthYear
+} year's old.`
+
+console.log(amanNew)
