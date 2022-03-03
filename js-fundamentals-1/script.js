@@ -157,3 +157,22 @@ const amanNew = `I'm ${FirstName}, a ${Job} and is ${
 } year's old.`
 
 console.log(amanNew)
+
+const _age = 15
+const isOldEnough = _age >= 18
+
+if (isOldEnough) {
+  console.log('You can start driving.😎🚗')
+} else {
+  const yearsLeft = 18 - _age
+  console.log(`Sorry!wait for ${yearsLeft} more years 🙇🏽‍♀️`)
+}
+
+const _BirthYear = 1994
+let century
+if (_BirthYear <= 2000) {
+  century = 20 + 'th'
+} else {
+  century = 21 + 'st'
+}
+console.log(century)
