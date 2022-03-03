@@ -70,7 +70,7 @@ console.log(typeof null) /* it is an object weired???*/
 
 /* Variable Declaration in JS - 
 let, const - ES15
- var - older*/
+var - older*/
 
 //  "let" variable can change
 let age = 28
@@ -88,3 +88,36 @@ var job = 'student' /* legacy */
 lastName = 'Verma'
 console.log(lastName) /* not recommended; declare the variable */
 console.log(typeof lastName)
+
+/* Operators */
+const now = 2022
+const ageJohn = now - 1994
+const ageJane = now - 1990
+console.log(ageJohn, ageJane)
+
+console.log(ageJohn * 2, ageJane / 2, ageJohn + ageJane, ageJohn % 5, 2 ** 8)
+
+// String concatenation
+const _firstName = 'Aman'
+const _lastName = 'Verma'
+console.log(_firstName + ' ' + _lastName)
+
+let x = 10 + 5
+console.log(x)
+x += 2
+console.log(x)
+x -= 3
+console.log(x)
+x++
+console.log(x)
+x--
+console.log(x)
+
+// Coparison operator
+console.log(ageJohn > ageJane)
+console.log(ageJohn < ageJane)
+console.log(ageJohn == ageJane)
+console.log(ageJohn >= ageJane)
+console.log(ageJohn <= ageJane)
+
+console.log(ageJane <= 32)
