@@ -42,5 +42,28 @@ Value is -
 // 6. Symbol(ES15) - value that is unique and cannot be changed
 // 7. BigInt(ES20) - larger integers than the Number type
 
-/* This is multi line commenting. */
+/* This is multi
+ line commenting. */
 // This is a single line commenting.
+
+let jsIsFun = true
+
+console.log(typeof true)
+console.log(typeof jsIsFun)
+console.log(typeof false)
+console.log(typeof 'Aman')
+console.log(typeof 28)
+
+// overriding above variable
+jsIsFun = 'Yes!'
+console.log(typeof jsIsFun) /* here it is a string */
+
+let year
+console.log(year) /* Undefined empty variable */
+console.log(typeof year) /* Undefined empty variable */
+
+year = 1994
+console.log(year)
+console.log(typeof year)
+
+console.log(typeof null) /* it is an object weired???*/
