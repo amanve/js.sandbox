@@ -121,3 +121,15 @@ console.log(ageJohn >= ageJane)
 console.log(ageJohn <= ageJane)
 
 console.log(ageJane <= 32)
+
+/* Operator Precedence - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence */
+
+const wtMark = 78
+const wtJohn = 92
+const htMark = 1.69
+const htJohn = 1.95
+
+const bmiMark = wtMark / htMark ** 2
+const bmiJohn = wtJohn / htJohn ** 2
+
+console.log(bmiMark, bmiJohn, bmiMark > bmiJohn ? true : false)
