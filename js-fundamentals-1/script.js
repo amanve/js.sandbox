@@ -67,3 +67,24 @@ console.log(year)
 console.log(typeof year)
 
 console.log(typeof null) /* it is an object weired???*/
+
+/* Variable Declaration in JS - 
+let, const - ES15
+ var - older*/
+
+//  "let" variable can change
+let age = 28
+age = 25
+
+// "const" variable cannot be changed
+const birthYear = 1991
+// birthYear = 1992 /* not possible to reassign */
+
+// const job /* not possible missing "=" in const declaration */
+
+// "var" should be avoided
+var job = 'student' /* legacy */
+
+lastName = 'Verma'
+console.log(lastName) /* not recommended; declare the variable */
+console.log(typeof lastName)
