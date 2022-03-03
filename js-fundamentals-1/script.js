@@ -19,3 +19,28 @@ Best Naming Convention is using CAMEL CASE
 let PI = 3.1419
 console.log(PI)
 console.log(Math.PI) /* Both shows different values */
+
+/*
+JS have dynamic typing unlike C,C++ which are static stype 
+Value is -
+1. Object -- 
+    let me={
+        name:'Aman',
+        age:28
+    }
+
+2. Primitive --
+    let firstName='Aman'
+*/
+
+// PRIMITIVE DATA TYPES
+// 1. Number
+// 2. String
+// 3. Boolean
+// 4. Undefined - value taken by variable that is not yet defined('empty value')
+// 5. Null - also 'empty value'
+// 6. Symbol(ES15) - value that is unique and cannot be changed
+// 7. BigInt(ES20) - larger integers than the Number type
+
+/* This is multi line commenting. */
+// This is a single line commenting.
