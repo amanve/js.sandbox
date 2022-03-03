@@ -125,14 +125,23 @@ console.log(ageJane <= 32)
 /* Operator Precedence - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence */
 
 const wtMark = 78
-const wtJohn = 92
+const wtJohn = 110
 const htMark = 1.69
 const htJohn = 1.95
 
 const bmiMark = wtMark / htMark ** 2
 const bmiJohn = wtJohn / htJohn ** 2
 
-console.log(bmiMark, bmiJohn, bmiMark > bmiJohn ? true : false)
+// console.log(bmiMark, bmiJohn, bmiMark > bmiJohn ? true : false)
+
+/* if (bmiMark > bmiJohn) {
+  console.log(`Bmi Mark is more`)
+} else {
+  console.log(`Bmi John is more`)
+} */
+
+// Shorthand ternary operator
+console.log(bmiMark > bmiJohn ? `Bmi Mark is more.` : `Bmi John is more.`)
 
 const FirstName = 'Aman'
 const Job = 'developer'
