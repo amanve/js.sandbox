@@ -204,3 +204,21 @@ console.log('23' ** '2')
 let n = '1' + 1
 n -= 1
 console.log(n)
+
+// Truthy and Falsy Values
+// 5 falsy values - 0,'',undefined,null,NaN
+console.log(Boolean(0))
+console.log(Boolean(''))
+console.log(Boolean(undefined))
+console.log(Boolean(null))
+console.log(Boolean(NaN))
+
+// truthy
+console.log(Boolean(1))
+console.log(Boolean('aman'))
+
+const money = 0
+console.log(money ? `You have job` : `You have no job`)
+
+let height
+console.log(height ? `height is defined ${height}m` : `height not defined`)
