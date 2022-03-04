@@ -185,3 +185,22 @@ if (_BirthYear <= 2000) {
   century = 21 + 'st'
 }
 console.log(century)
+
+/* 
+\\\\\\Type Conversion\\\\\\
+ */
+const inputYear = '1994'
+console.log(Number(inputYear)) /* type conversion */
+console.log(typeof (inputYear + 18)) /* give string output */
+console.log(Number(inputYear) + 18)
+console.log(String(28), 28)
+
+/* Type Coercion */
+console.log('I am ' + 23 + ' years old.')
+console.log('I am' + ' 23 ' + 'years old.')
+console.log('23' - '10' + 5)
+console.log('23' ** '2')
+
+let n = '1' + 1
+n -= 1
+console.log(n)
