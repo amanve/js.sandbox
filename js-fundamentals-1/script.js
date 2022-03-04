@@ -222,3 +222,15 @@ console.log(money ? `You have job` : `You have no job`)
 
 let height
 console.log(height ? `height is defined ${height}m` : `height not defined`)
+
+/* "==" does type coercion and "===" does not do type coercion */
+
+const fav = Number(prompt('Enter a number:'))
+console.log(fav)
+
+if (fav == 28) {
+  console.log('Cool!!')
+}
+if (fav !== 28) {
+  console.log('Cool!')
+}
